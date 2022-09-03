@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>    
+  <pre>
+        <h4>Q.Create one function with zero parameter having a console statement;</h4>
+        function sum(){
+             var total = a+b;
+             console.log(total);
+         }
+        
+        <h4>Q.Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"</h4>
+        function sum(a,b,c){
+             
+          console.log("sum of "+a+","+b+"is"+c);
+      }
+      sum(3,4,7)
+
+      <h4>Q.Create one arrow function</h4>
+        var myFun = (a,b,c,d) => { console.log(a + " " + b + " " + c + " " + d);}
+        myFun(34,6,7,5);
+
+       
+       <h4>Q.print out</h4>
+       var X = 21;
+       var girl = function(){
+       console.log(X);
+       var X = 20;
+       };
+       girl(X); 
+
+       output-undefined
+       
+        <h4>Q.print out</h4>
+        var x = 21;
+        girl ();
+        console.log(x)
+        function girl() {
+        console.log(x);
+        var x = 20;
+        };
+
+        output-undefined 21;
+
+       <h4>Q.print out</h4>
+       var X = 21;
+       a();
+       b();
+       console.log(a);
+       a = function(){
+
+         X = 20;
+         console.log(X);
+       };
+       b = function(){
+
+         X = 40;
+        console.log(X);
+       };
+
+       output-'a is not  defined'
+
+    <h4>Q.Write a function that accepts parameter n and returns factorial of n</h4>      
+      let num = 5;
+      let factorialn = 1;
+      function factorial() {
+        for(var i=num; i>=1; i--){
+         factorialn*=i;
+        
+        }
+       }
+       factorial();
+       console.log(factorialn);
+      </pre>
+</body>
+</html>
